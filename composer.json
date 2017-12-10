@@ -1,6 +1,6 @@
 {
     "name": "antonioturdo/italia-bundle",
-    "description": "A symfony bundle that helps development taking into account italian laws",
+    "description": "A symfony bundle that helps development taking into account italian laws.",
     "version": "0.0.1",
     "type": "symfony-bundle",
     "keywords": ["italy", "italia"],
