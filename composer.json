@@ -19,6 +19,7 @@
     "require-dev": {
     },
     "config": {
+        "preferred-install": "source"
     },
     "autoload": {
         "psr-4": { "AntonioTurdo\\Bundle\\ItaliaBundle\\": "src/" }
