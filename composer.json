@@ -13,7 +13,8 @@
         "php": "^7.0.8",
         "symfony/config": "^3.4|^4.0",
         "symfony/dependency-injection": "^3.4|^4.0",
-        "symfony/framework-bundle": "^3.4|^4.0"
+        "symfony/framework-bundle": "^3.4|^4.0",
+        "davidepastore/codice-fiscale": "^0.2.2"
     },
     "require-dev": {
     },
