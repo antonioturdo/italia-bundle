@@ -1,0 +1,33 @@
+{
+    "name": "antonioturdo/italia-bundle",
+    "type": "symfony-bundle",
+    "keywords": ["italy", "italia"],
+    "authors": [
+        {
+            "name": "Antonio Turdo",
+            "homepage": "https://github.com/antonioturdo"
+        }
+    ],
+    "require": {
+        "php": "^7.0.8",
+        "symfony/config": "^3.4|^4.0",
+        "symfony/dependency-injection": "^3.4|^4.0",
+        "symfony/framework-bundle": "^3.4|^4.0",
+    },
+    "require-dev": {
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": { "AntonioTurdo\\Bundle\\ItaliaBundle\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+           
+        }
+    }
+}
