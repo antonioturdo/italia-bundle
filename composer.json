@@ -1,6 +1,7 @@
 {
     "name": "antonioturdo/italia-bundle",
     "description": "A symfony bundle that helps development taking into account italian laws",
+    "version": "0.0.1",
     "type": "symfony-bundle",
     "keywords": ["italy", "italia"],
     "authors": [
@@ -18,10 +19,6 @@
     "require-dev": {
     },
     "config": {
-        "preferred-install": {
-            "*": "dist"
-        },
-        "sort-packages": true
     },
     "autoload": {
         "psr-4": { "AntonioTurdo\\Bundle\\ItaliaBundle\\": "src/" }
