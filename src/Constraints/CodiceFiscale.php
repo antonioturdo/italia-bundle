@@ -13,5 +13,5 @@ use Symfony\Component\Validator\Constraint;
  */
 class CodiceFiscale extends Constraint {
     
-    public $message = 'The string "{{ string }}" is not a valid italian "Codice fiscale".';
+    public $message = 'This value is not a valid italian Codice Fiscale.';
 }
