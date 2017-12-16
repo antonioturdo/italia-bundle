@@ -9,12 +9,18 @@
             "homepage": "https://github.com/antonioturdo"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/antonioturdo/codice-fiscale.git"
+        }
+    ],     
     "require": {
         "php": "^7.0.8",
         "symfony/config": "^3.4|^4.0",
         "symfony/dependency-injection": "^3.4|^4.0",
         "symfony/framework-bundle": "^3.4|^4.0",
-        "davidepastore/codice-fiscale": "^0.2.2"
+        "antonioturdo/codice-fiscale": "^0.2.3-dev"
     },
     "require-dev": {
     },
