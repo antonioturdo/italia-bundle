@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "https://github.com/antonioturdo/codice-fiscale.git"
+            "url":  "git@github.com:antonioturdo/codice-fiscale.git"
         }
     ],     
     "require": {
