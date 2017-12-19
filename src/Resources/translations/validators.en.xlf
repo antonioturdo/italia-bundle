@@ -6,6 +6,14 @@
                 <source>This value is not a valid italian Codice Fiscale.</source>
                 <target>This value is not a valid italian Codice Fiscale</target>
             </trans-unit>
+            <trans-unit id="2">
+                <source>This value is not a formally valid italian Partita IVA.</source>
+                <target>This value is not a formally valid italian Partita IVA.</target>
+            </trans-unit> 
+            <trans-unit id="3">
+                <source>This value is not a currently existent italian Partita IVA.</source>
+                <target>This value is not a currently existent italian Partita IVA.</target>
+            </trans-unit>             
         </body>
     </file>
 </xliff>
