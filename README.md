@@ -12,4 +12,4 @@ composer require antonioturdo/italia-bundle
 ## Constraints
 Constraints made available by this bundle to check the value of properties or the return value of methods on your object:
 - CodiceFiscale
-- PartitaIVA
+- PartitaIVA (with a "method" option that can take two values: "formal" and "existence")
