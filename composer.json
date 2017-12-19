@@ -21,7 +21,7 @@
         "symfony/dependency-injection": "^3.4|^4.0",
         "symfony/framework-bundle": "^3.4|^4.0",
         "davidepastore/codice-fiscale": "dev-validator",
-        "sorciulus/check-partita-iva": "^0.1",
+        "sorciulus/check-partita-iva": "^0.1.1",
         "fdisotto/partita-iva": "^3.0"
     },
     "require-dev": {
