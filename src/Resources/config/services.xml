@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="antonioturdo_italia_codicefiscale" class="AntonioTurdo\Bundle\ItaliaBundle\Service\CodiceFiscale" public="true">
+        
+        </service>
+        
+        <alias id="AntonioTurdo\Bundle\ItaliaBundle\Service\CodiceFiscale" service="antonioturdo_italia_codicefiscale" />
+    </services>
+</container>
