@@ -29,7 +29,7 @@ class CodiceFiscale
             $options['century'] = $century;
         }
 
-        $inverseCalculator = new CodiceFiscale\InverseCalculator($codiceFiscale, $options);
+        $inverseCalculator = new \CodiceFiscale\InverseCalculator($codiceFiscale, $options);
         return $inverseCalculator->getSubject();
     }
 }

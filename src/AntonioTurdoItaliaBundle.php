@@ -11,7 +11,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
  *
  * @author Antonio Turdo <antonio.turdo@gmail.com>
  */
-class ItaliaBundle extends Bundle
+class AntonioTurdoItaliaBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {

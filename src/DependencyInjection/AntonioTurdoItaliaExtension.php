@@ -11,11 +11,11 @@ class AntonioTurdoItaliaExtension extends \Symfony\Component\HttpKernel\Dependen
 {
     //put your code here
     public function load(array $configs, \Symfony\Component\DependencyInjection\ContainerBuilder $container) {
-        $loader = new \Symfony\Component\DependencyInjection\Loader\XmlFileLoader(
+        $loader = new \Symfony\Component\DependencyInjection\Loader\YamlFileLoader(
             $container,
-            new FileLocator(__DIR__.'/../Resources/config')
+            new \Symfony\Component\Config\FileLocator(__DIR__.'/../Resources/config')
         );
-        $loader->load('services.xml');        
+        $loader->load('antonioturdo_italia.yaml');        
     }
 
 }
