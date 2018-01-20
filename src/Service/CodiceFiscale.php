@@ -10,7 +10,15 @@ namespace AntonioTurdo\Bundle\ItaliaBundle\Service;
 class CodiceFiscale 
 {
     
-    public function isFormallyValid($codiceFiscale, $century = null) {
+    /**
+     * Return TRUE if the provided codice fiscale is formally valid, FALSE otherwise 
+     * 
+     * @param string $codiceFiscale
+     * @param string $century
+     * @return bool
+     */
+    public function isFormallyValid(string $codiceFiscale, $century = null)
+    {
         $options = array();
         
         if (!is_null($century)) {
@@ -22,7 +30,15 @@ class CodiceFiscale
         return $validator->isFormallyValid();
     }
     
-    public function inverseCalculate($codiceFiscale, $century = null) {
+    /**
+     * Return an object containing data of the Subject with the provided codice fiscale
+     * 
+     * @param string $codiceFiscale
+     * @param string $century
+     * @return \CodiceFiscale\Subject
+     */
+    public function inverseCalculate(string $codiceFiscale, string $century = null) 
+    {
         $options = array();
         
         if (!is_null($century)) {

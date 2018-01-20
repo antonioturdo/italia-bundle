@@ -6,31 +6,24 @@ use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 
 /**
- * Description of PartitaIVAValidator
+ * Description of CAPValidator
  *
  * @author Antonio Turdo <antonio.turdo@gmail.com>
  */
-class PartitaIVAValidator extends ConstraintValidator 
+class CAPValidator extends ConstraintValidator 
 {
+    private $cap;
     
-    private $partitaIVA;
-    
-    public function __construct(\AntonioTurdo\Bundle\ItaliaBundle\Service\PartitaIVA $partitaIVA) {
-        $this->partitaIVA = $partitaIVA;
-    }    
+    public function __construct(\AntonioTurdo\Bundle\ItaliaBundle\Service\CAP $cap) {
+        $this->cap = $cap;
+    }
 
     public function validate($value, Constraint $constraint)
     {
         $error = false;
         switch ($constraint->method) {
-            case 'existence': 
-                if (!$this->partitaIVA->exists($value)) {
-                    $message = is_null($constraint->message) ? $constraint->messageExistence : $constraint->message;
-                    $error = true;
-                }
-                break;
             case 'formal':
-                if (!$this->partitaIVA->isFormallyValid($value)) {
+                if (!$this->cap->isFormallyValid($value)) {
                     $message = is_null($constraint->message) ? $constraint->messageFormal : $constraint->message;
                     $error = true;
                 }

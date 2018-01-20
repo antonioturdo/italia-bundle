@@ -1,0 +1,16 @@
+services:
+    _defaults:
+        autowire: true
+        
+    AntonioTurdo\Bundle\ItaliaBundle\Service\CodiceFiscale: ~
+    AntonioTurdo\Bundle\ItaliaBundle\Service\CAP: ~
+    AntonioTurdo\Bundle\ItaliaBundle\Service\PartitaIVA: ~    
+    
+    AntonioTurdo\Bundle\ItaliaBundle\Constraints\CAPValidator:
+        tags: [validator.constraint_validator]
+        
+    AntonioTurdo\Bundle\ItaliaBundle\Constraints\CodiceFiscaleValidator:
+        tags: [validator.constraint_validator]        
+        
+    AntonioTurdo\Bundle\ItaliaBundle\Constraints\PartitaIVAValidator:
+        tags: [validator.constraint_validator]        

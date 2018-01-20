@@ -13,7 +13,11 @@
             <trans-unit id="3">
                 <source>This value is not a currently existent italian Partita IVA.</source>
                 <target>This value is not a currently existent italian Partita IVA.</target>
-            </trans-unit>             
+            </trans-unit> 
+            <trans-unit id="4">
+                <source>This value is not a formally valid italian CAP.</source>
+                <target>This value is not a formally valid italian CAP.</target>
+            </trans-unit>                         
         </body>
     </file>
 </xliff>

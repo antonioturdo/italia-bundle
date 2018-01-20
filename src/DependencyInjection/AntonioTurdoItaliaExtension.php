@@ -15,7 +15,8 @@ class AntonioTurdoItaliaExtension extends \Symfony\Component\HttpKernel\Dependen
             $container,
             new \Symfony\Component\Config\FileLocator(__DIR__.'/../Resources/config')
         );
-        $loader->load('antonioturdo_italia.yaml');        
+        //$loader->load('antonioturdo_italia.yaml');  
+        $loader->load('services.yaml');
     }
 
 }
