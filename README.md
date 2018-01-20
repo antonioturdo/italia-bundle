@@ -16,6 +16,6 @@ Constraints made available by this bundle to check the value of properties or th
 - AntonioTurdo\Bundle\ItaliaBundle\Constraints\CAP
 
 ## Services
-- AntonioTurdo\Bundle\ItaliaBundle\Service\CodiceFiscale
-- AntonioTurdo\Bundle\ItaliaBundle\Service\PartitaIVA
-- AntonioTurdo\Bundle\ItaliaBundle\Service\CAP
+- AntonioTurdo\Bundle\ItaliaBundle\Service\CodiceFiscale (formal validation and inverse calculation)
+- AntonioTurdo\Bundle\ItaliaBundle\Service\PartitaIVA (formal validation and existence)
+- AntonioTurdo\Bundle\ItaliaBundle\Service\CAP (formal validation)
