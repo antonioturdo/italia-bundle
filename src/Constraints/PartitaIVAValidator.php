@@ -21,6 +21,10 @@ class PartitaIVAValidator extends ConstraintValidator
 
     public function validate($value, Constraint $constraint)
     {
+        if (is_null($value)) {
+            return;
+        }
+
         $error = false;
         switch ($constraint->method) {
             case 'existence': 
